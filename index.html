@@ -1,0 +1,532 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <style>html {
+        scroll-behavior: smooth;
+    }
+    
+    body {
+        background: url(./spa.jpg);
+        margin: 0%;
+        padding: 0%;
+        color: red;
+        text-align: center;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+    }
+    
+    #Logo {
+        color: red;
+        background: rgb(67, 234, 89);
+        border-radius: 2px;
+        width: 120%;
+    }
+    
+    button {
+        width: 15%;
+        height: 40px;
+        border: none;
+        border-radius: 5px;
+        color: red;
+        margin: 3px;
+    }
+    button:hover {
+        background: rgb(242, 144, 144);
+        color: white;
+    }
+    
+    .up {
+        position: fixed;
+        bottom: 20px;
+        right: 10px;
+        color: white;
+        font-size: 20px;
+        border-radius: 50%;
+        background: rgb(241, 76, 200);
+    }
+    
+    a {
+     text-decoration: none;
+    }
+    
+    .ul {
+        text-decoration: underline;
+    }
+    
+    .Active {
+        width: 90%;
+        height: fit-content;
+        background:url(./power.jpg);
+        color: white;
+        border-radius: 3px;
+        box-shadow:  0 0 20px 0 black;
+        padding: 10px 0;
+        margin: 25px;
+    }
+    
+    #About {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        width: 90%;
+        height: fit-content;
+        background:url(./poo.jpg);
+        color: blue;
+        border-radius: 3px;
+        box-shadow:  0 0 20px 0 black;
+        padding: 10px 0;
+        margin: 25px;
+    } 
+    #Menu {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        width: 90%;
+        height: fit-content;
+        background:url(./micky.jpg);
+        background-position: center;
+        color: rgb(4, 201, 4);
+        border-radius: 3px;
+        box-shadow:  0 0 20px 0 black;
+        padding: 10px 0;
+        margin: 25px;
+    } 
+    #Gallery {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        width: 90%;
+        height: fit-content;
+        background:url(./gro.jpg);
+        background-position: center;
+        color: white;
+        border-radius: 3px;
+        box-shadow:  0 0 20px 0 black;
+        padding: 10px 0;
+        margin: 25px;
+    } 
+    #Contacts {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        width: 90%;
+        height: fit-content;
+        background: url(./duck.jpg);
+        background-position: center;
+        color: white;
+        border-radius: 3px;
+        box-shadow:  0 0 20px 0 black;
+        padding: 10px 0;
+        margin: 25px;
+    } 
+    #Trips {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        width: 90%;
+        height: fit-content;
+        background:url(./chip.jpg);
+        background-position: center;
+        color: white;
+        border-radius: 3px;
+        box-shadow:  0 0 20px 0 black;
+        padding: 10px 0;
+        margin: 25px;
+    }
+
+
+
+    img {
+        width: 50%;
+        padding: 2% 0;
+    }
+
+    .Yellow {
+        color: yellow;
+    }
+    .Green {
+        color: green;
+    }
+    .Blue {
+        color: blue;
+    }
+    .Pink {
+        color: rgb(231, 38, 70);
+    }
+    .Purple {
+        color: purple;
+    }
+    .Orange {
+        color: orange;
+    }
+    .first {
+        color: white;
+    }
+
+
+    .Menu {
+        background:yellow;
+        color: white;
+    
+    }
+    .Gallery {
+        background:green;
+        color: white;
+    }
+    .Trips {
+        background: blue;
+        color: white;
+    }
+    .Contacts {
+        background: red;
+        color: white;
+    }
+    .About {
+        background: purple;
+        color: white;
+    }
+
+
+
+
+
+
+
+
+
+    header {
+  text-align: center;
+  padding: 32px;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.pur {
+    text-align: center;
+    background: rgb(147, 2, 147,0.5);
+    width: 70%;
+    color: white;
+    height: fit-content;
+    border-radius: 15px;
+}
+
+.Yel {
+    text-align: center;
+    background: rgb(251, 251, 36, 0.5);
+    color: blue;
+    width: 70%;
+    height: fit-content;
+    border-radius: 15px;
+}
+
+.pur {
+    text-align: center;
+    background: rgb(147, 2, 147,0.5);
+    width: 70%;
+    height: fit-content;
+    border-radius: 15px;
+}
+
+.pur {
+    text-align: center;
+    background: rgb(147, 2, 147,0.5);
+    width: 70%;
+    height: fit-content;
+    border-radius: 15px;
+}
+
+.pur {
+    text-align: center;
+    background: rgb(147, 2, 147,0.5);
+    width: 70%;
+    height: fit-content;
+    border-radius: 15px;
+}
+
+.pur {
+    text-align: center;
+    background: rgb(147, 2, 147,0.5);
+    width: 70%;
+    height: fit-content;
+    border-radius: 15px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </style>
+    <title>Ekhulani Day Care</title>
+</head>
+<body>
+    <header>
+        <a href="#Logo">
+        <div id="Logo">
+            <h2>
+                <span class="Yellow">K</span>
+                <span class="Green">H</span>
+                <span class="Blue">U</span>
+                <span class="Pink">L</span>
+                <span class="Purple">A</span>
+                <span class="">N</span>
+                <span class="Orange">I</span>
+                <br>
+                <span class="Orange">P</span>
+                <span class="">R</span>
+                <span  class="Green">E</span>
+                <span class="purple">-</span>
+                <span class="Pink">S</span>
+                <span class="Blue">C</span>
+                <span class="Yellow">H</span>
+                <span class="">O</span>
+                <span class="">O</span>
+                <span class="Yellow">L</span> 
+                <br> 
+                <h4 class="first">First Things First</h4>
+            </h2>
+        </div>
+        </a>
+    </header>
+    <main>
+        <div class="btn">
+            <a href="#About">
+                <button class="btn About">About</button>
+            </a>
+            <a href="#Menu">
+                <button class="btn Menu">Menu</button>
+            </a>
+            <a href="#Gallery">
+                <button class="btn Gallery">Gallery</button>
+            </a>
+            <a href="Trips">
+                <button class="btn Contacts">Contacts</button>
+            </a>
+            <a href="#Trips">
+                <button class="btn Trips">Trips</button>
+            </a>
+            <a href="">
+                <button class="up">^</button>
+            </a>
+        </div>
+
+<!---------    About Khunani    ------------>
+
+        <div id="About" class="ActivePurple">
+            <div class="pur">
+                <h2 class="ul">Requirement</h2>
+                <h3>
+                    Registration <br>
+                    R200
+                    <hr>
+                    <br>
+                    <h2>3month - 2years <br> R600</h2>
+                    <hr>
+                    <h2>2years - 4years <br>
+                    R500</h2>
+                    <hr>
+                    <h2>4years - 6years <br>
+                    R450</h2>
+                </h3>
+            </div>
+        </div>
+
+        <div id="Menu" class="Menu Active">
+            <div class="Yel">
+                <h2 class="ul">Uniform</h2>
+                <h3>
+                    T-shirt - R200 <br>
+                    <br>
+                    Track Suit - R350 <br>
+                    <br>
+                    Tunic For Girls - R300 <br>
+                    <br>
+                </h3>
+                <h2 class="ul">
+                    Stationary
+                </h2>
+                <h3>
+                    2 x 72 Pages Excercise Book <br>
+                    <br>
+                    1 PKT Wax Crayons 24 <br>
+                    <br>
+                    1 Parket Pencil With 12 Pencils In Side <br>
+                    <br>
+                    1 Rubber <br>
+                    <br>
+                    1 Sharpener <br>
+                    <br>
+                    250 Sheet Typek Paper <br>
+                    <br>
+                    2 Pritte <br>
+                    <br>
+                    1  Colouring Book <br>
+                    <br>
+                    20 Pages Pocket File <br>
+                     <br>
+                    1 Marker Black <br>
+                    <br>
+                    1 Pair Of Scissor / Old Magazine <br>
+                    <br>
+            </h3>
+            <h2 class="ul">
+                Toiletries
+            </h2>
+            <h3>
+                24 Twinssaver Toilet Paper <br>
+                <br>
+                4 Parkets of Wipes <br>
+                <br>
+                2 x 250 Vaseline Blue Seal <br>
+                <br>
+                4 Dettol Soap <br>
+                <br>
+                1 Dettol Handwash <br>
+                <br>
+            </h3>
+        </div>
+        </div>
+
+        <div id="Trips" class="Active">
+
+        </div>
+
+        <div class="Active">
+            <div class="pur">
+                <h2 class="ul">Graduation</h2>
+                <h3>18 November
+    
+                </h3>
+    </div>
+        </div>
+
+
+<div id="Gallery" class="Active">
+    <div class="">
+
+        <!-- Photo Grid -->
+        <div class="row"> 
+            <div class="column">
+              <img src="./0.jpg" style="width:100%">
+              <img src="./14.jpg" style="width:100%">
+            </div>
+            <div class="column">
+              <img src="./15.jpg" style="width:100%">
+              <img src="./3.jpg" style="width:100%">
+            </div>  
+            <div class="column">
+              <img src="./5.jpg" style="width:100%">
+              <img src="./8.jpg" style="width:100%">
+              <img src="5.jpg" style="width:100%">
+            </div></div>
+  </div>
+
+
+
+
+
+
+
+
+</div>
+<div>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d224.06320956430193!2d28.16583233355943!3d-26.033184556000187!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e956c51eb6e8f43%3A0x11bc6b2aa600c32d!2sNgwingwi%20St%2C%20Commercia%2C%20Midrand%2C%201685!5e0!3m2!1sen!2sza!4v1692110733687!5m2!1sen!2sza" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+
+    </main>
+
+
+
+
+
+    <footer id="Contacts" class="Active">
+
+        <div>
+            <div class="pur">
+                <img src="/dad470dfec10e4f5cc1f000f5a949ec7.jpg">
+                <br>
+                <img src="/efe0e6950ddfb13e937b3355b5b01417.jpg">
+                <br>
+                <img src="/f005bb44373e0152841db9b490efba2b.jpg">
+    </div>
+        </div>
+        <div>
+            <div class="pur">
+                <table>
+                    <thead>
+                        <td>Address</td>
+                        <td>2162 Ingwingwi street <br> Mayibuye ext 34 <br> Midrand 1685</td>
+                    </thead>
+                </table>
+    </div>        
+</div>
+
+    </footer>
+</body>
+</html>
